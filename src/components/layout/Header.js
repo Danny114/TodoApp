@@ -9,7 +9,7 @@ function Header() {
         Home
       </Link>{" "}
       |{" "}
-      <Link style={linkStyle} to="//TodoApp/about">
+      <Link style={linkStyle} to="/TodoApp/about">
         About
       </Link>
     </header>
@@ -17,7 +17,7 @@ function Header() {
 }
 
 const headerStyle = {
-  background: "#333",
+  background: "#4286f4",
   color: "#fff",
   textAlign: "center",
   padding: "10px"
