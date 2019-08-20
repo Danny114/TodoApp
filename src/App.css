@@ -5,8 +5,9 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Raleway", sans-serif;
   line-height: 1.4;
+  background-color: #81b3aa;
 }
 
 a {
@@ -15,7 +16,7 @@ a {
 }
 
 .container {
-  padding: 0 1rem;
+  padding: 0 10rem;
 }
 
 .btn {

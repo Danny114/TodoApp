@@ -4,9 +4,8 @@ import PropTypes from "prop-types";
 export class TodoItem extends Component {
   getStyle = () => {
     return {
-      padding: "10px",
-      backgroundColor: this.props.todo.completed ? "#3fdc4d" : "#f4f4f4",
-      borderBottom: "1px #ccc dotted",
+      padding: "20px",
+      borderBottom: "1px #f4f4f4 solid",
       textDecoration: this.props.todo.completed ? "line-through " : "none"
     };
   };
@@ -23,7 +22,7 @@ export class TodoItem extends Component {
           />{" "}
           {title}
           <button onClick={this.props.delTodo.bind(this, id)} style={btnStyle}>
-            X
+            <i class="far fa-trash-alt fa-2x" />
           </button>
         </p>
       </div>
@@ -32,11 +31,9 @@ export class TodoItem extends Component {
 }
 
 const btnStyle = {
-  color: "white",
-  backgroundColor: "#ff0000",
+  color: "#a20e0e",
+  background: "none",
   border: "none",
-  padding: "5px 9px",
-  borderRadius: "50%",
   cursor: "pointer",
   float: "right"
 };

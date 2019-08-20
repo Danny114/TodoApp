@@ -5,19 +5,11 @@ function Header() {
   return (
     <header style={headerStyle}>
       <h1>TodoList</h1>
-      <Link style={linkStyle} to="/TodoApp">
-        Home
-      </Link>{" "}
-      |{" "}
-      <Link style={linkStyle} to="/TodoApp/about">
-        About
-      </Link>
     </header>
   );
 }
 
 const headerStyle = {
-  background: "#4286f4",
   color: "#fff",
   textAlign: "center",
   padding: "10px"

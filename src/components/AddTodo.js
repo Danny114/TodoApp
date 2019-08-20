@@ -24,7 +24,7 @@ export class AddTodo extends Component {
           placeholder="Add Todo..."
           value={this.state.title}
           onChange={this.onChange}
-          style={{ flex: "10", padding: "5px" }}
+          style={{ flex: "5", padding: "5px" }}
         />
         <input
           type="submit"
